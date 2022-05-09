@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+    function mostra(texto) {
+        document.write(texto);
+        pulaLinha();
+    }
+    function sorteia(n) {
+    
+    return Math.round(Math.random() * n);
+    
+    }
+
+    var numero = 30;
+
+    while ( numero <= 40 ) {
+        if(numero !== 33 && numero !== 37) {
+            mostra( numero);
+        }
+        numero = numero + 2
+    }
+    mostra("FIM")
+
+</script>

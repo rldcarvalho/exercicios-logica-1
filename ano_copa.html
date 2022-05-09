@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+    function mostra(texto) {
+        document.write(texto);
+        pulaLinha();
+    }
+    function sorteia(n) {
+    
+    return Math.round(Math.random() * n);
+    
+    }
+
+    var anoCopa = 1930;
+
+    while ( anoCopa < 2021 ) {
+        mostra("Teve copa em " + anoCopa);
+        anoCopa = anoCopa + 4
+    }
+    mostra("FIM")
+
+</script>
